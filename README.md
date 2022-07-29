@@ -5,7 +5,11 @@ Using the principles of Image processing, the bot deciphers the arena grids that
 
 ## Problem Statement
 
-You can find the problem statement here —— [Problem Statement](problem_statement.pdf)
+<div>
+      <p><span>You can find the problem statement here —— </span>
+         <span><a href="problem_statement.pdf" target="_blank">Problem Statement </a></span>
+      </p>
+    </div>
 
 #### Arena:
 
@@ -49,7 +53,7 @@ The bot should use the feed from the camera that is overhead the arena. It shoul
 #### Final Event Video:
 
 <div align="center">
-      <a href="https://www.youtube.com/watch?v=MtGuLSTmohY">
+      <a href="https://www.youtube.com/watch?v=MtGuLSTmohY" target="_blank">
      <img 
       src="public/Final Run Thumbnail.png"
       alt="Final Run"
