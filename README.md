@@ -7,7 +7,7 @@ Using the principles of Image processing, the bot deciphers the arena grids that
 
 <div>
       <p><span>You can find the problem statement here —— </span>
-         <span><a href="problem_statement.pdf" target="_blank">Problem Statement </a></span>
+         <span><a href="problem_statement.pdf" onclick="window.open(this.href,'_blank');return false;">Problem Statement </a></span>
       </p>
     </div>
 
