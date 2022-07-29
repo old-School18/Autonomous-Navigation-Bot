@@ -53,7 +53,7 @@ The bot should use the feed from the camera that is overhead the arena. It shoul
 #### Final Event Video:
 
 <div align="center">
-      <a href="https://www.youtube.com/watch?v=MtGuLSTmohY" target="new_window">
+      <a href="https://www.youtube.com/watch?v=MtGuLSTmohY">
      <img 
       src="public/Final Run Thumbnail.png"
       alt="Final Run"
