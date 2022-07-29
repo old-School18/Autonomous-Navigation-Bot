@@ -31,7 +31,7 @@ The arena contains 9 * 9 grids of varying shapes and colors as shown in the imag
 
 #### PS in brief:
 
-The bot should use the feed from the camera that is overhead the arena. It should then identify the death eaters and transfer them to the Azkaban prison in order to reveal the horcruxes underneath. The bot should remove the weapon blocks and uncover the identity of the horcrux that the weapons can destroy. It should then deliver the weapon blocks to their respective horcruxes in order to destory them. 
+The bot should use the feed from the camera that is overhead the arena. It should then identify the death eaters and transfer them to the Azkaban prison in order to reveal the horcruxes underneath. The bot should remove the weapon blocks and uncover the identity of the horcrux that the weapons can destroy. It should then deliver the weapon blocks to their respective horcruxes in order to destroy them. 
 
 #### Indicators:
 
@@ -41,9 +41,9 @@ The bot should use the feed from the camera that is overhead the arena. It shoul
 
 ## Team Sectumsempra Solution
 
-1. The bot uses the feed from the overhead camera and applies image processing techniques to decipher the arena grids and segragate them into groups of varying colors and shapes.
+1. The bot uses the feed from the overhead camera and applies image processing techniques to decipher the arena grids and segregate them into groups of varying colors and shapes.
 2. A (9 * 9) will be created to represent the arena. A unique number is assigned to each of the blocks of a particular shape and color. 
-3. As the optimal scoring trajectory is along the path of least distractions (i.e., if the target horcrux is red circle, the bot should traverse along the path of least red circles but also in the quickest time), therefore, the grids containing same color and shape as the horcrcux are given lower priority values in the matrix.
+3. As the optimal scoring trajectory is along the path of least distractions (i.e., if the target horcrux is a red circle, the bot should traverse along the path of least red circles but also in the quickest time), therefore, the grids containing the same color and shape as the horcrux are given lower priority values in the matrix.
 4. Dijkstra's algorithm is implemented on the obtained matrix and the shortest path is determined. The bot then traverses along the shortest path to fulfil the task.
 5. After the task is fulfilled, the matrix values get reassigned for the next task. This process continues till all the tasks are completed i.e., all the death eaters are transferred to the prison and the horcruxes are destroyed using the weapons.
 6. Aruco marker and PID control system are used to make the bot traverse in a straight line and take sharp 90 degree turns.
